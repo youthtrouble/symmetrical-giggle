@@ -1,0 +1,118 @@
+body { 
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif; 
+    margin: 0; 
+    padding: 20px; 
+    background-color: #f5f5f5; 
+}
+.container { 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    background: white; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+}
+.header { 
+    padding: 20px; 
+    border-bottom: 1px solid #eee; 
+}
+.controls { 
+    display: flex; 
+    gap: 20px; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+.control-group { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 5px; 
+}
+.control-group label { 
+    font-weight: 600; 
+    color: #333; 
+}
+.control-group select, .control-group input { 
+    padding: 8px 12px; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    font-size: 14px; 
+}
+.reviews-container { 
+    padding: 20px; 
+}
+.review-card { 
+    background: #f8f9fa; 
+    border: 1px solid #e9ecef; 
+    border-radius: 8px; 
+    padding: 16px; 
+    margin-bottom: 16px; 
+}
+.review-header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 12px; 
+}
+.review-info { 
+    display: flex; 
+    align-items: center; 
+    gap: 15px; 
+}
+.rating { 
+    display: flex; 
+    gap: 2px; 
+}
+.star { 
+    color: #ccc; 
+    font-size: 16px; 
+}
+.star.filled { 
+    color: #ffc107; 
+}
+.author { 
+    font-weight: 600; 
+    color: #495057; 
+}
+.date { 
+    color: #6c757d; 
+    font-size: 14px; 
+}
+.review-title { 
+    font-weight: 600; 
+    margin: 0 0 8px 0; 
+    color: #212529; 
+}
+.review-content { 
+    margin: 0; 
+    line-height: 1.5; 
+    color: #495057; 
+}
+.loading { 
+    text-align: center; 
+    padding: 40px; 
+    color: #6c757d; 
+}
+.error { 
+    background: #6a7fdb;
+    color: #f8f9fa;
+    padding: 12px 16px; 
+    border-radius: 4px; 
+    margin-bottom: 20px; 
+}
+.stats { 
+    background: #e9ecef; 
+    padding: 12px 16px; 
+    border-radius: 4px; 
+    margin-bottom: 20px; 
+}
+.btn { 
+    background: #6ec78b;
+    color: white; 
+    border: none; 
+    padding: 8px 16px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 14px; 
+}
+.btn:hover { 
+    background: #55996b;
+}
